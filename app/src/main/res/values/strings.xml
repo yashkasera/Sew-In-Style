@@ -1,0 +1,42 @@
+<!--
+  ~ Copyright (c) 2020. Yash Kasera
+  ~ All Rights Reserved
+  -->
+
+<resources>
+    <string name="app_name">Sew In Style</string>
+    <string name="rupee">&#x20B9;</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis augue elit, quis lacinia lacus vestibulum id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque sit amet pulvinar justo, sed dignissim diam. Sed ornare, nibh sed pretium fermentum, dolor enim finibus lectus, feugiat venenatis ante neque vel tellus. Proin id velit varius, pharetra justo id, sollicitudin dolor. Mauris sed tempus nibh. Aliquam eu varius augue, vel ultrices augue. Suspendisse ac sapien et eros laoreet mollis. Quisque eget velit metus. Duis at elit ex.</string>
+    <string-array name="months">
+        <item>All</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>Septemper</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

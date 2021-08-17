@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yashkasera.sewinstyle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity android:name=".EditPieceActivity" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".ViewProfitsActivity" />
+        <activity android:name=".ReportsActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewPaymentsActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".InventoryEditActivity" />
+        <activity android:name=".GivePaymentActivity" />
+        <activity android:name=".UpdateStatusActivity" />
+        <activity android:name=".EmbTaiActivity" />
+        <activity android:name=".ViewPieceInfoActivity" />
+        <activity android:name=".ViewPiecesActivity" />
+        <activity
+            android:name=".ViewExpensesActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".AddExpenseActivity" />
+        <activity android:name=".InventorySaleActivity" />
+        <activity android:name=".AddToInventoryActivity" />
+        <activity
+            android:name=".InventoryActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".AcceptPaymentActivity" />
+        <activity android:name=".ViewPersonInfoActivity" />
+        <activity android:name=".AddPieceActivity" />
+        <activity android:name=".ViewMeasurementsActivity" />
+        <activity android:name=".InsertOrUpdateMeasurements" />
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".DeletePersonActivity" />
+        <activity android:name=".EditPersonActivity" />
+        <activity android:name=".ErrorActivity" />
+        <activity android:name=".AddPersonActivity" />
+        <activity android:name=".CusTaiEmbActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashboardActivity" />
+        </activity>
+        <activity android:name=".DashboardActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

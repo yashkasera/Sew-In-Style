@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Yash Kasera
+  ~ All Rights Reserved
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yashkasera.sewinstyle.CusTaiEmbActivity">
+    <item android:title="All" />
+    <item android:title="Customer" />
+    <item android:title="Embroider" />
+    <item android:title="Tailor" />
+</menu>

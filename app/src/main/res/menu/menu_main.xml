@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright (c) 2020. Yash Kasera
+  ~ All Rights Reserved
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yashkasera.sewinstyle.CusTaiEmbActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search1"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:orderInCategory="1"
+        android:title="Sort By"
+        app:showAsAction="withText">
+        <!-- Starting the text color sub menu which have three items-->
+        <menu>
+            <item
+                android:id="@+id/action_sort_name"
+                android:icon="@drawable/ic_sort"
+                android:title="Name" />
+            <item
+                android:id="@+id/action_sort_nop"
+                android:icon="@drawable/ic_sort_2"
+                android:title="Number of Pieces" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:title="Edit"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="Delete" />
+
+</menu>
